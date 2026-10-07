@@ -1,0 +1,17 @@
+._*
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+# данные собираются скриптами, в репозиторий не кладём
+data/data/
+data/data_v2/
+data/data_v3/
+data/data_v4/
+data/data_v41/
+data/data_ood/
+data/jevbench/
+gpu/out/
+gpu/results/
+*.safetensors

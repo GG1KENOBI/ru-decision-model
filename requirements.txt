@@ -1,0 +1,10 @@
+# проверено: Python 3.11, CUDA 12.8, RTX 4090 24 ГБ
+torch>=2.11
+transformers>=5.18
+peft>=0.21
+accelerate
+datasets
+numpy
+scikit-learn        # только для базовой линии эмбеддинги + логрегрессия
+flash-linear-attention  # ускоряет слои GatedDeltaNet в Qwen3.5; без него работает, но медленнее
+# bitsandbytes      # опционально: --int8 для крупных моделей при сравнении

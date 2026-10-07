@@ -1,0 +1,201 @@
+/home/ubuntu/jev/.venv/lib/python3.11/site-packages/huggingface_hub/constants.py:302: FutureWarning: The `HF_HUB_ENABLE_HF_TRANSFER` environment variable is deprecated as 'hf_transfer' is not used anymore. Please use `HF_XET_HIGH_PERFORMANCE` instead to enable high performance transfer with Xet. Visit https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfxethighperformance for more details.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:19<00:19, 19.98s/it]Fetching 2 files: 100%|██████████| 2/2 [00:24<00:00, 10.64s/it]Fetching 2 files: 100%|██████████| 2/2 [00:24<00:00, 12.04s/it]
+Loading weights:   0%|          | 0/426 [00:00<?, ?it/s]Loading weights:   0%|          | 1/426 [00:02<19:03,  2.69s/it]Loading weights:   2%|▏         | 7/426 [00:02<02:11,  3.18it/s]Loading weights:   3%|▎         | 12/426 [00:03<01:13,  5.65it/s]Loading weights:   3%|▎         | 14/426 [00:03<01:13,  5.62it/s]Loading weights:   5%|▌         | 22/426 [00:03<00:38, 10.63it/s]Loading weights:   8%|▊         | 35/426 [00:04<00:21, 18.05it/s]Loading weights:  11%|█         | 46/426 [00:04<00:13, 27.19it/s]Loading weights:  22%|██▏       | 95/426 [00:04<00:03, 85.17it/s]Loading weights:  33%|███▎      | 140/426 [00:04<00:02, 114.98it/s]Loading weights:  37%|███▋      | 159/426 [00:04<00:03, 85.44it/s] Loading weights:  41%|████      | 174/426 [00:05<00:03, 70.99it/s]Loading weights:  44%|████▎     | 186/426 [00:05<00:03, 61.27it/s]Loading weights:  46%|████▌     | 196/426 [00:05<00:04, 56.60it/s]Loading weights:  48%|████▊     | 206/426 [00:05<00:03, 61.41it/s]Loading weights:  50%|█████     | 215/426 [00:06<00:03, 52.82it/s]Loading weights:  52%|█████▏    | 222/426 [00:06<00:04, 46.43it/s]Loading weights:  55%|█████▍    | 233/426 [00:06<00:03, 56.11it/s]Loading weights:  57%|█████▋    | 241/426 [00:06<00:04, 43.77it/s]Loading weights:  58%|█████▊    | 247/426 [00:07<00:04, 38.62it/s]Loading weights:  60%|█████▉    | 254/426 [00:07<00:03, 43.34it/s]Loading weights:  62%|██████▏   | 263/426 [00:07<00:03, 51.03it/s]Loading weights:  63%|██████▎   | 270/426 [00:07<00:03, 47.51it/s]Loading weights:  65%|██████▍   | 276/426 [00:07<00:04, 34.93it/s]Loading weights:  67%|██████▋   | 287/426 [00:07<00:03, 42.51it/s]Loading weights:  69%|██████▉   | 293/426 [00:08<00:03, 40.62it/s]Loading weights:  70%|██████▉   | 298/426 [00:08<00:03, 34.68it/s]Loading weights:  73%|███████▎  | 311/426 [00:08<00:02, 51.34it/s]Loading weights:  75%|███████▍  | 318/426 [00:08<00:02, 42.22it/s]Loading weights:  76%|███████▌  | 324/426 [00:08<00:02, 39.73it/s]Loading weights:  77%|███████▋  | 329/426 [00:09<00:02, 38.77it/s]Loading weights:  80%|███████▉  | 340/426 [00:09<00:02, 41.16it/s]Loading weights:  83%|████████▎ | 353/426 [00:09<00:01, 40.55it/s]Loading weights:  84%|████████▍ | 359/426 [00:09<00:01, 35.60it/s]Loading weights:  85%|████████▌ | 363/426 [00:10<00:02, 30.74it/s]Loading weights:  96%|█████████▌| 408/426 [00:10<00:00, 95.64it/s]Loading weights: 100%|██████████| 426/426 [00:10<00:00, 41.71it/s]
+trainable params: 32,464,896 || all params: 4,238,216,192 || trainable%: 0.7660
+train 100112, val 2680, средняя длина 364 токенов
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+шаг 25/7801 loss 1.2280 lr 1.07e-05 2.14 с/шаг, осталось ~278 мин, VRAM пик 12.1 ГБ
+шаг 50/7801 loss 1.0899 lr 2.14e-05 2.04 с/шаг, осталось ~264 мин, VRAM пик 12.1 ГБ
+шаг 75/7801 loss 0.9154 lr 3.21e-05 2.00 с/шаг, осталось ~257 мин, VRAM пик 12.1 ГБ
+шаг 100/7801 loss 0.9256 lr 4.27e-05 1.98 с/шаг, осталось ~255 мин, VRAM пик 12.1 ГБ
+шаг 125/7801 loss 0.8725 lr 5.34e-05 1.97 с/шаг, осталось ~252 мин, VRAM пик 12.1 ГБ
+шаг 150/7801 loss 0.8476 lr 6.41e-05 1.93 с/шаг, осталось ~246 мин, VRAM пик 12.1 ГБ
+шаг 175/7801 loss 0.9530 lr 7.48e-05 1.92 с/шаг, осталось ~244 мин, VRAM пик 12.1 ГБ
+шаг 200/7801 loss 0.8866 lr 8.55e-05 1.94 с/шаг, осталось ~246 мин, VRAM пик 12.1 ГБ
+шаг 225/7801 loss 0.7203 lr 9.62e-05 1.96 с/шаг, осталось ~247 мин, VRAM пик 12.1 ГБ
+шаг 250/7801 loss 0.7316 lr 1.00e-04 1.96 с/шаг, осталось ~247 мин, VRAM пик 12.1 ГБ
+шаг 275/7801 loss 0.7409 lr 1.00e-04 1.97 с/шаг, осталось ~247 мин, VRAM пик 12.1 ГБ
+шаг 300/7801 loss 0.8259 lr 1.00e-04 1.97 с/шаг, осталось ~247 мин, VRAM пик 12.1 ГБ
+шаг 325/7801 loss 0.7565 lr 1.00e-04 1.97 с/шаг, осталось ~246 мин, VRAM пик 12.1 ГБ
+шаг 350/7801 loss 0.9060 lr 9.99e-05 1.98 с/шаг, осталось ~245 мин, VRAM пик 12.1 ГБ
+шаг 375/7801 loss 0.8138 lr 9.99e-05 1.98 с/шаг, осталось ~245 мин, VRAM пик 12.1 ГБ
+шаг 400/7801 loss 0.8325 lr 9.99e-05 1.98 с/шаг, осталось ~244 мин, VRAM пик 12.1 ГБ
+шаг 425/7801 loss 0.8034 lr 9.98e-05 1.97 с/шаг, осталось ~243 мин, VRAM пик 12.1 ГБ
+шаг 450/7801 loss 0.6556 lr 9.98e-05 1.97 с/шаг, осталось ~242 мин, VRAM пик 12.1 ГБ
+шаг 475/7801 loss 0.7512 lr 9.97e-05 1.97 с/шаг, осталось ~241 мин, VRAM пик 12.1 ГБ
+шаг 500/7801 loss 0.7898 lr 9.97e-05 1.97 с/шаг, осталось ~239 мин, VRAM пик 12.1 ГБ
+шаг 525/7801 loss 0.8205 lr 9.96e-05 1.97 с/шаг, осталось ~239 мин, VRAM пик 12.1 ГБ
+шаг 550/7801 loss 0.9561 lr 9.96e-05 1.98 с/шаг, осталось ~239 мин, VRAM пик 12.1 ГБ
+шаг 575/7801 loss 0.5682 lr 9.95e-05 1.98 с/шаг, осталось ~238 мин, VRAM пик 12.1 ГБ
+шаг 600/7801 loss 0.7388 lr 9.94e-05 1.97 с/шаг, осталось ~237 мин, VRAM пик 12.1 ГБ
+шаг 625/7801 loss 0.8807 lr 9.93e-05 1.97 с/шаг, осталось ~236 мин, VRAM пик 12.1 ГБ
+шаг 650/7801 loss 0.5946 lr 9.93e-05 1.97 с/шаг, осталось ~235 мин, VRAM пик 12.1 ГБ
+шаг 675/7801 loss 0.8147 lr 9.92e-05 1.97 с/шаг, осталось ~234 мин, VRAM пик 12.1 ГБ
+шаг 700/7801 loss 0.9890 lr 9.91e-05 1.97 с/шаг, осталось ~233 мин, VRAM пик 12.1 ГБ
+шаг 725/7801 loss 0.8174 lr 9.90e-05 1.97 с/шаг, осталось ~233 мин, VRAM пик 12.1 ГБ
+шаг 750/7801 loss 0.6000 lr 9.89e-05 1.98 с/шаг, осталось ~232 мин, VRAM пик 12.1 ГБ
+шаг 775/7801 loss 0.6824 lr 9.87e-05 1.97 с/шаг, осталось ~231 мин, VRAM пик 12.1 ГБ
+шаг 800/7801 loss 0.7429 lr 9.86e-05 1.97 с/шаг, осталось ~230 мин, VRAM пик 12.1 ГБ
+  val acc (2680): 0.8478  ← лучший
+шаг 825/7801 loss 0.6025 lr 9.85e-05 2.50 с/шаг, осталось ~290 мин, VRAM пик 20.9 ГБ
+шаг 850/7801 loss 0.8309 lr 9.84e-05 2.48 с/шаг, осталось ~287 мин, VRAM пик 20.9 ГБ
+шаг 875/7801 loss 0.6750 lr 9.82e-05 2.46 с/шаг, осталось ~284 мин, VRAM пик 20.9 ГБ
+шаг 900/7801 loss 0.6211 lr 9.81e-05 2.45 с/шаг, осталось ~282 мин, VRAM пик 20.9 ГБ
+шаг 925/7801 loss 0.6553 lr 9.80e-05 2.44 с/шаг, осталось ~280 мин, VRAM пик 20.9 ГБ
+шаг 950/7801 loss 0.6332 lr 9.78e-05 2.43 с/шаг, осталось ~277 мин, VRAM пик 20.9 ГБ
+шаг 975/7801 loss 0.7543 lr 9.77e-05 2.41 с/шаг, осталось ~274 мин, VRAM пик 20.9 ГБ
+шаг 1000/7801 loss 0.6225 lr 9.75e-05 2.40 с/шаг, осталось ~272 мин, VRAM пик 20.9 ГБ
+шаг 1025/7801 loss 0.7004 lr 9.73e-05 2.39 с/шаг, осталось ~269 мин, VRAM пик 20.9 ГБ
+шаг 1050/7801 loss 0.7599 lr 9.72e-05 2.37 с/шаг, осталось ~267 мин, VRAM пик 20.9 ГБ
+шаг 1075/7801 loss 0.7468 lr 9.70e-05 2.36 с/шаг, осталось ~265 мин, VRAM пик 20.9 ГБ
+шаг 1100/7801 loss 0.6621 lr 9.68e-05 2.35 с/шаг, осталось ~263 мин, VRAM пик 20.9 ГБ
+шаг 1125/7801 loss 0.6852 lr 9.66e-05 2.35 с/шаг, осталось ~261 мин, VRAM пик 20.9 ГБ
+шаг 1150/7801 loss 0.7298 lr 9.64e-05 2.34 с/шаг, осталось ~259 мин, VRAM пик 20.9 ГБ
+шаг 1175/7801 loss 0.5207 lr 9.62e-05 2.33 с/шаг, осталось ~257 мин, VRAM пик 20.9 ГБ
+шаг 1200/7801 loss 0.5832 lr 9.60e-05 2.32 с/шаг, осталось ~255 мин, VRAM пик 20.9 ГБ
+шаг 1225/7801 loss 0.5536 lr 9.58e-05 2.32 с/шаг, осталось ~254 мин, VRAM пик 20.9 ГБ
+шаг 1250/7801 loss 0.6379 lr 9.56e-05 2.31 с/шаг, осталось ~252 мин, VRAM пик 20.9 ГБ
+шаг 1275/7801 loss 0.5811 lr 9.54e-05 2.31 с/шаг, осталось ~251 мин, VRAM пик 20.9 ГБ
+шаг 1300/7801 loss 0.6285 lr 9.52e-05 2.30 с/шаг, осталось ~249 мин, VRAM пик 20.9 ГБ
+шаг 1325/7801 loss 0.7439 lr 9.50e-05 2.29 с/шаг, осталось ~247 мин, VRAM пик 20.9 ГБ
+шаг 1350/7801 loss 0.7790 lr 9.47e-05 2.28 с/шаг, осталось ~245 мин, VRAM пик 20.9 ГБ
+шаг 1375/7801 loss 0.6251 lr 9.45e-05 2.28 с/шаг, осталось ~244 мин, VRAM пик 20.9 ГБ
+шаг 1400/7801 loss 0.8425 lr 9.43e-05 2.27 с/шаг, осталось ~242 мин, VRAM пик 20.9 ГБ
+шаг 1425/7801 loss 0.6543 lr 9.40e-05 2.27 с/шаг, осталось ~241 мин, VRAM пик 20.9 ГБ
+шаг 1450/7801 loss 0.7164 lr 9.38e-05 2.26 с/шаг, осталось ~239 мин, VRAM пик 20.9 ГБ
+шаг 1475/7801 loss 0.6877 lr 9.35e-05 2.26 с/шаг, осталось ~238 мин, VRAM пик 20.9 ГБ
+шаг 1500/7801 loss 0.8237 lr 9.33e-05 2.25 с/шаг, осталось ~237 мин, VRAM пик 20.9 ГБ
+шаг 1525/7801 loss 0.6181 lr 9.30e-05 2.25 с/шаг, осталось ~235 мин, VRAM пик 20.9 ГБ
+шаг 1550/7801 loss 0.7478 lr 9.27e-05 2.25 с/шаг, осталось ~234 мин, VRAM пик 20.9 ГБ
+шаг 1575/7801 loss 0.8675 lr 9.24e-05 2.24 с/шаг, осталось ~233 мин, VRAM пик 20.9 ГБ
+шаг 1600/7801 loss 0.5511 lr 9.22e-05 2.24 с/шаг, осталось ~231 мин, VRAM пик 20.9 ГБ
+  val acc (2680): 0.8489  ← лучший
+шаг 1625/7801 loss 0.6701 lr 9.19e-05 2.47 с/шаг, осталось ~254 мин, VRAM пик 20.9 ГБ
+шаг 1650/7801 loss 0.5985 lr 9.16e-05 2.46 с/шаг, осталось ~252 мин, VRAM пик 20.9 ГБ
+шаг 1675/7801 loss 0.5448 lr 9.13e-05 2.45 с/шаг, осталось ~250 мин, VRAM пик 20.9 ГБ
+шаг 1700/7801 loss 0.6354 lr 9.10e-05 2.44 с/шаг, осталось ~248 мин, VRAM пик 20.9 ГБ
+шаг 1725/7801 loss 0.6939 lr 9.07e-05 2.44 с/шаг, осталось ~247 мин, VRAM пик 20.9 ГБ
+шаг 1750/7801 loss 0.6994 lr 9.04e-05 2.43 с/шаг, осталось ~245 мин, VRAM пик 20.9 ГБ
+шаг 1775/7801 loss 0.7588 lr 9.01e-05 2.43 с/шаг, осталось ~244 мин, VRAM пик 20.9 ГБ
+шаг 1800/7801 loss 0.5903 lr 8.98e-05 2.42 с/шаг, осталось ~242 мин, VRAM пик 20.9 ГБ
+шаг 1825/7801 loss 0.4767 lr 8.95e-05 2.42 с/шаг, осталось ~241 мин, VRAM пик 20.9 ГБ
+шаг 1850/7801 loss 0.5945 lr 8.92e-05 2.41 с/шаг, осталось ~239 мин, VRAM пик 20.9 ГБ
+шаг 1875/7801 loss 0.6529 lr 8.88e-05 2.41 с/шаг, осталось ~238 мин, VRAM пик 20.9 ГБ
+шаг 1900/7801 loss 0.5973 lr 8.85e-05 2.40 с/шаг, осталось ~236 мин, VRAM пик 20.9 ГБ
+шаг 1925/7801 loss 0.6079 lr 8.82e-05 2.39 с/шаг, осталось ~234 мин, VRAM пик 20.9 ГБ
+шаг 1950/7801 loss 0.4273 lr 8.78e-05 2.39 с/шаг, осталось ~233 мин, VRAM пик 20.9 ГБ
+шаг 1975/7801 loss 0.5781 lr 8.75e-05 2.38 с/шаг, осталось ~231 мин, VRAM пик 20.9 ГБ
+шаг 2000/7801 loss 0.4651 lr 8.72e-05 2.37 с/шаг, осталось ~230 мин, VRAM пик 20.9 ГБ
+шаг 2025/7801 loss 0.4897 lr 8.68e-05 2.37 с/шаг, осталось ~228 мин, VRAM пик 20.9 ГБ
+шаг 2050/7801 loss 0.4769 lr 8.64e-05 2.37 с/шаг, осталось ~227 мин, VRAM пик 20.9 ГБ
+шаг 2075/7801 loss 0.6468 lr 8.61e-05 2.36 с/шаг, осталось ~225 мин, VRAM пик 20.9 ГБ
+шаг 2100/7801 loss 0.6793 lr 8.57e-05 2.35 с/шаг, осталось ~223 мин, VRAM пик 20.9 ГБ
+шаг 2125/7801 loss 0.6583 lr 8.54e-05 2.35 с/шаг, осталось ~222 мин, VRAM пик 20.9 ГБ
+шаг 2150/7801 loss 0.5817 lr 8.50e-05 2.34 с/шаг, осталось ~221 мин, VRAM пик 20.9 ГБ
+шаг 2175/7801 loss 0.6735 lr 8.46e-05 2.34 с/шаг, осталось ~219 мин, VRAM пик 20.9 ГБ
+шаг 2200/7801 loss 0.5227 lr 8.42e-05 2.33 с/шаг, осталось ~218 мин, VRAM пик 20.9 ГБ
+шаг 2225/7801 loss 0.5474 lr 8.39e-05 2.33 с/шаг, осталось ~217 мин, VRAM пик 20.9 ГБ
+шаг 2250/7801 loss 0.7172 lr 8.35e-05 2.33 с/шаг, осталось ~215 мин, VRAM пик 20.9 ГБ
+шаг 2275/7801 loss 0.5105 lr 8.31e-05 2.32 с/шаг, осталось ~214 мин, VRAM пик 20.9 ГБ
+шаг 2300/7801 loss 0.5535 lr 8.27e-05 2.32 с/шаг, осталось ~213 мин, VRAM пик 20.9 ГБ
+шаг 2325/7801 loss 0.6452 lr 8.23e-05 2.32 с/шаг, осталось ~212 мин, VRAM пик 20.9 ГБ
+шаг 2350/7801 loss 0.4496 lr 8.19e-05 2.32 с/шаг, осталось ~211 мин, VRAM пик 20.9 ГБ
+шаг 2375/7801 loss 0.6465 lr 8.15e-05 2.32 с/шаг, осталось ~209 мин, VRAM пик 20.9 ГБ
+шаг 2400/7801 loss 0.4673 lr 8.11e-05 2.31 с/шаг, осталось ~208 мин, VRAM пик 20.9 ГБ
+  val acc (2680): 0.8757  ← лучший
+шаг 2425/7801 loss 0.5554 lr 8.07e-05 2.46 с/шаг, осталось ~220 мин, VRAM пик 20.9 ГБ
+шаг 2450/7801 loss 0.6930 lr 8.03e-05 2.45 с/шаг, осталось ~219 мин, VRAM пик 20.9 ГБ
+шаг 2475/7801 loss 0.6123 lr 7.99e-05 2.45 с/шаг, осталось ~217 мин, VRAM пик 20.9 ГБ
+шаг 2500/7801 loss 0.4884 lr 7.95e-05 2.45 с/шаг, осталось ~216 мин, VRAM пик 20.9 ГБ
+шаг 2525/7801 loss 0.6156 lr 7.90e-05 2.44 с/шаг, осталось ~215 мин, VRAM пик 20.9 ГБ
+шаг 2550/7801 loss 0.3981 lr 7.86e-05 2.44 с/шаг, осталось ~213 мин, VRAM пик 20.9 ГБ
+шаг 2575/7801 loss 0.6036 lr 7.82e-05 2.43 с/шаг, осталось ~212 мин, VRAM пик 20.9 ГБ
+шаг 2600/7801 loss 0.5921 lr 7.78e-05 2.43 с/шаг, осталось ~211 мин, VRAM пик 20.9 ГБ
+шаг 2625/7801 loss 0.6898 lr 7.73e-05 2.42 с/шаг, осталось ~209 мин, VRAM пик 20.9 ГБ
+шаг 2650/7801 loss 0.5990 lr 7.69e-05 2.42 с/шаг, осталось ~208 мин, VRAM пик 20.9 ГБ
+шаг 2675/7801 loss 0.6888 lr 7.64e-05 2.42 с/шаг, осталось ~206 мин, VRAM пик 20.9 ГБ
+шаг 2700/7801 loss 0.7248 lr 7.60e-05 2.41 с/шаг, осталось ~205 мин, VRAM пик 20.9 ГБ
+шаг 2725/7801 loss 0.5150 lr 7.56e-05 2.41 с/шаг, осталось ~204 мин, VRAM пик 20.9 ГБ
+шаг 2750/7801 loss 0.5509 lr 7.51e-05 2.40 с/шаг, осталось ~202 мин, VRAM пик 20.9 ГБ
+шаг 2775/7801 loss 0.4540 lr 7.47e-05 2.40 с/шаг, осталось ~201 мин, VRAM пик 20.9 ГБ
+шаг 2800/7801 loss 0.4801 lr 7.42e-05 2.40 с/шаг, осталось ~200 мин, VRAM пик 20.9 ГБ
+шаг 2825/7801 loss 0.9007 lr 7.38e-05 2.39 с/шаг, осталось ~199 мин, VRAM пик 20.9 ГБ
+шаг 2850/7801 loss 0.6066 lr 7.33e-05 2.39 с/шаг, осталось ~197 мин, VRAM пик 20.9 ГБ
+шаг 2875/7801 loss 0.4584 lr 7.28e-05 2.39 с/шаг, осталось ~196 мин, VRAM пик 20.9 ГБ
+шаг 2900/7801 loss 0.5146 lr 7.24e-05 2.38 с/шаг, осталось ~195 мин, VRAM пик 20.9 ГБ
+шаг 2925/7801 loss 0.5653 lr 7.19e-05 2.38 с/шаг, осталось ~193 мин, VRAM пик 20.9 ГБ
+шаг 2950/7801 loss 0.4514 lr 7.14e-05 2.38 с/шаг, осталось ~192 мин, VRAM пик 20.9 ГБ
+шаг 2975/7801 loss 0.5055 lr 7.10e-05 2.38 с/шаг, осталось ~191 мин, VRAM пик 20.9 ГБ
+шаг 3000/7801 loss 0.4227 lr 7.05e-05 2.37 с/шаг, осталось ~190 мин, VRAM пик 20.9 ГБ
+шаг 3025/7801 loss 0.6482 lr 7.00e-05 2.37 с/шаг, осталось ~189 мин, VRAM пик 20.9 ГБ
+шаг 3050/7801 loss 0.4531 lr 6.95e-05 2.37 с/шаг, осталось ~187 мин, VRAM пик 20.9 ГБ
+шаг 3075/7801 loss 0.4630 lr 6.91e-05 2.36 с/шаг, осталось ~186 мин, VRAM пик 20.9 ГБ
+шаг 3100/7801 loss 0.5393 lr 6.86e-05 2.36 с/шаг, осталось ~185 мин, VRAM пик 20.9 ГБ
+шаг 3125/7801 loss 0.5450 lr 6.81e-05 2.36 с/шаг, осталось ~184 мин, VRAM пик 20.9 ГБ
+шаг 3150/7801 loss 0.5092 lr 6.76e-05 2.35 с/шаг, осталось ~183 мин, VRAM пик 20.9 ГБ
+шаг 3175/7801 loss 0.5233 lr 6.71e-05 2.35 с/шаг, осталось ~181 мин, VRAM пик 20.9 ГБ
+шаг 3200/7801 loss 0.5538 lr 6.66e-05 2.35 с/шаг, осталось ~180 мин, VRAM пик 20.9 ГБ
+Traceback (most recent call last):
+  File "/home/ubuntu/jev/train_gpu.py", line 150, in <module>
+    main()
+  File "/home/ubuntu/jev/train_gpu.py", line 139, in main
+    acc = evaluate(model, val, lids, pad, device)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/train_gpu.py", line 68, in evaluate
+    sub, _ = option_logits(model, ids, att, last, n_opt, lids)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/train_gpu.py", line 53, in option_logits
+    h = base.model(input_ids=ids, attention_mask=att).last_hidden_state
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/transformers/utils/output_capturing.py", line 287, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 1291, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/transformers/modeling_layers.py", line 110, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 910, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py", line 835, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+                                           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/jev/.venv/lib/python3.11/site-packages/peft/tuners/lora/layer.py", line 1102, in forward
+    result = result + lora_B(lora_A(dropout(x))) * scaling
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.02 GiB. GPU 0 has a total capacity of 23.52 GiB of which 1.03 GiB is free. Including non-PyTorch memory, this process has 22.47 GiB memory in use. Of the allocated memory 16.15 GiB is allocated by PyTorch, and 5.86 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
