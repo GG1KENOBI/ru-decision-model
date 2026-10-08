@@ -11,7 +11,7 @@ import numpy as np
 R = Path("results")
 MODELS = [("base08b", "Qwen3.5-0.8B"), ("tev1_08b", "tev1-0.8B"), ("v4_08b", "НАША v4-0.8B"),
           ("base4b", "Qwen3.5-4B"), ("tev1_4b", "tev1-4B"), ("kev4b", "Kev-4B"), ("plumb4b", "Plumb-4B"),
-          ("imajev4b", "Imajev-4B"), ("v3", "НАША v3-4B"), ("v4_4b", "НАША v4-4B"), ("v41_4b", "v4.1, треть обучения"), ("v41b_4b", "ru-decision-4b"),
+          ("imajev4b", "Imajev-4B"), ("v3", "НАША v3-4B"), ("v4_4b", "НАША v4-4B"), ("v41_4b", "v4.1, треть обучения"), ("v41b_4b", "ru-decision-4b"), ("frida", "FRIDA-Decisions"),
           ("yandexgpt5", "YandexGPT-5-Lite-8B"), ("gigachat31", "GigaChat3.1-10B")]
 RU = {"ood_banking77_ru": "Banking77 (обращения в банк)", "ood_gov_category": "Жалобы граждан: ведомство",
       "ood_gov_urgency": "Жалобы граждан: срочность", "ood_toxicity": "Токсичность в поддержке",
