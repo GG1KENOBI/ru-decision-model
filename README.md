@@ -1,5 +1,7 @@
 # ru-decision-model: своя модель решений на русском
 
+[![Habr article](https://img.shields.io/badge/Habr-article%20(RU)-65A3BE?logo=habr&logoColor=white)](https://habr.com/ru/articles/1090744/) [![Model on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Model-ru--decision--4b-FFD21E)](https://huggingface.co/6E6E/ru-decision-4b) [![Results](https://img.shields.io/badge/Results-RESULTS.md-CF4A1D)](results/RESULTS.md) [![Benchmark](https://img.shields.io/badge/%F0%9F%A4%97%20Benchmark-razvilka%2085.6-FFD21E)](https://huggingface.co/datasets/artemsnegirev/razvilka) [![Telegram](https://img.shields.io/badge/Telegram-aify__studio-26A5E4?logo=telegram&logoColor=white)](https://t.me/aify_studio) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
+
 ![Своя модель решений за вечер на GPU](results/figures/01-cover.jpg)
 
 Код, данные и туториал к модели [**6E6E/ru-decision-4b**](https://huggingface.co/6E6E/ru-decision-4b) — открытой «модели решений» для русского языка.
